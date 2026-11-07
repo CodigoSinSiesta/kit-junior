@@ -7,7 +7,7 @@ Viene del taller «Kit de supervivencia para juniors» de Código Sin Siesta.
 
 ## Instalarlo
 
-Crea tu copia con **Use this template**, clónala y ejecuta:
+Crea tu copia con **Use this template**, déjala pública si vas a usarla desde Codespaces, clónala y ejecuta:
 
 ```bash
 ./instalar.sh
@@ -54,6 +54,9 @@ las dos reglas finales, que deben seguir siendo las últimas:
 ```yaml
 - { action: shell, resource: "mvn test *", effect: allow }
 ```
+
+**Desde Codespaces** no puedes hacer `git push` a tu kit: edítalo en GitHub (abre tu repo y pulsa `.`) y tráete los cambios con
+`git -C ~/kit-junior pull`.
 
 ## Tu diario
 
